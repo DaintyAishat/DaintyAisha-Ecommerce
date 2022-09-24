@@ -110,6 +110,10 @@ body{
     bottom: -4px;
     left: 20px;
 }
+#mobile{
+    display: none;
+    text-align: center;
+}
 #hero{
     background-image: url("img/hero4.png");
     height: 90vh;
@@ -236,7 +240,7 @@ body{
     font-weight: 700;
     color: #088178;
 }
-#product1 .pro .cart{
+#product1 .pro .a{
     width: 40px;
     height: 40px;
     line-height: 40px;
@@ -476,6 +480,19 @@ footer .copyright{
     }
     #navbar li{
         margin-bottom: 25px;
+    }
+     #navbar.active { 
+        right: 0px;
+    }
+    
+    #mobile{
+        display: flex;
+        text-align: center;
+    }
+    #mobile i{
+        color: #1a1a1a;
+        font-size: 24px;
+        padding-left: 20px;
     }
     
 }
