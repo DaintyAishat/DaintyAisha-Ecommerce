@@ -985,6 +985,9 @@ footer .copyright{
 footer .copyright{
     text-align: start;   
 }
+    footer .follow i{
+    padding-right: 6px;
+}
 /* Single Product*/
 #prodetails {
     display: flex;
