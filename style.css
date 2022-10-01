@@ -441,15 +441,14 @@ footer a{
     font-size: 13px;
     color: #222;
     margin-bottom: 10px;
-    display: flex;
 }
-footer.follow{
+footer .follow{
     margin-top: 20px;
 
 }
-footer.follow i{
+footer .follow i{
     color: #465b52;
-    padding: 4px;
+    padding-right: 4px;
     cursor: pointer;
 }
 footer .install .row img{
